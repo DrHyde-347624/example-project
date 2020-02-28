@@ -5,3 +5,10 @@ task:
   test_script:
     - pkg install -y bash
     - ./test.sh
+
+task:
+  name: MacOS
+  osx_instance:
+    image: catalina-xcode-11.3.1
+  test_script:
+    - ./test.sh
