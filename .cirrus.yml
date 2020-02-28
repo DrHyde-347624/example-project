@@ -4,5 +4,4 @@ task:
     image: freebsd-12-0-release-amd64
   test_script:
     - pkg install -y bash
-    - which bash
-    - bash ./test.sh
+    - ./test.sh
