@@ -3,5 +3,6 @@ task:
   freebsd_instance:
     image: freebsd-12-0-release-amd64
   test_script:
-    - pkg install -y bash
+    - pwd
+    - ls -l
     - ./test.sh
